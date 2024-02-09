@@ -45,6 +45,33 @@ product_id	        varchar	         Unique ID for product
 rating	             float	        Product rating, scored from 1.0 to 5.0
 <br>
 reviews	float	Number of reviews for the product
+<br>
+
+traffic
+<br>
+column	data type	description
+<br>
+product_id	varchar	Unique ID for product
+<br>
+last_visited	timestamp	Date and time the product was last viewed on the website
+<br>
+brands
+<br>
+column	data type	description
+<br>
+product_id	varchar	Unique ID for product
+<br>
+brand	varchar	Brand of the product
+<br>
+
+
+Lets Analyzing the data 
+
+<br>
+1. Missing values: The data has total 3179 products out of 3120 is non null values and 59 values are missing.Of the columns we previewed, only one — last_visited — is missing more than five percent of its values. 
+<br>
+
+2.Now let's turn our attention to pricing.
 
 
 
