@@ -8,9 +8,12 @@ The database provided to us, sports, contains five tables, with product_id being
 <br>
 tables:
 <br>
-info 
+info_v2
 <br>
 column	      data type	   description
+<br>
 product_name	varchar	     Name of the product
+<br>
 product_id	  varchar	     Unique ID for product
+<br>
 description	   varchar	     Description of the product
