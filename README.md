@@ -71,7 +71,22 @@ Lets Analyzing the data
 1. Missing values: The data has total 3179 products out of 3120 is non null values and 59 values are missing.Of the columns we previewed, only one — last_visited — is missing more than five percent of its values. 
 <br>
 
-2.Now let's turn our attention to pricing.
+2.Now let's turn our attention to pricing.How do the price points of Nike and Adidas products differ? Answering this question can help us build a picture of the company's stock range and customer market. We will run a query to produce a distribution of the listing_price and the count for each price, grouped by brand.It turns out there are 77 unique prices for the products in our database,
+<br>
+
+3.Let's build  labels to different price ranges, grouping by brand and label. We will also include the total revenue for each price range and brand.Interestingly, grouping products by brand and price range allows us to see that Adidas items generate more total revenue regardless of price category! Specifically, "Elite" Adidas products priced $129 or more typically generate the highest revenue, so the company can potentially increase revenue by shifting their stock to have a larger proportion of these products!
+<br>
+
+4. To understand revenue better, let's take a look at the discount, which is the percent reduction in the listing_price when the product is actually sold.
+Strangely, no discount is offered on Nike products! In comparison, not only do Adidas products generate the most revenue, but these products are also heavily discounted!
+<br>
+To improve revenue further, the company could try to reduce the amount of discount offered on Adidas products, and monitor sales volume to see if it remains stable. Alternatively, it could try offering a small discount on Nike products. This would reduce average revenue for these products, but may increase revenue overall if there is an increase in the volume of Nike products sold.
+<br>
+
+5.Interestingly, there is a strong positive correlation between revenue and reviews. This means, potentially, if we can get more reviews on the company's website, it may increase sales of those items with a larger number of reviews.As we know a correlation exists between reviews and revenue, one approach the company could take is to run experiments with different sales processes encouraging more reviews from customers about their purchases, such as by offering a small discount on future purchases.
+<br>
+
+6.Looks like product reviews are highest in the first quarter of the calendar year, so there is scope to run experiments aiming to increase the volume of reviews in the other nine months!
 
 
 
