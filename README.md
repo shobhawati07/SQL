@@ -87,6 +87,11 @@ To improve revenue further, the company could try to reduce the amount of discou
 <br>
 
 6.Looks like product reviews are highest in the first quarter of the calendar year, so there is scope to run experiments aiming to increase the volume of reviews in the other nine months!
+<br>
+
+7.we found there are 3,117 products without missing values for description. Of those, 2,700 are footwear products, which accounts for around 85% of the company's stock. They also generate a median revenue of over $3000 dollars!
+
+
 
 
 
